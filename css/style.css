@@ -1,0 +1,123 @@
+.artist-box {
+  background-color: #1b1b1b;
+  padding: 10px;
+  text-align: center;
+  border-radius: 10px;
+  width: 500px;
+}
+
+.artist-row {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+body.discografie {
+  background-image: url("../img/background1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+h1 {
+  color: #ffffff; 
+  text-shadow: 1px 1px 2px rgb(0, 0, 0);
+}
+
+a {
+  color: #cb7402; 
+  text-decoration: none;
+}
+
+a:hover {
+  color: #ffffff; 
+  text-decoration: underline;
+}
+
+.asculta-link {
+  font-weight: bold;
+  color: #ffe596; 
+  text-decoration: none;
+  text-shadow: 0 0 5px #ffbb00, 0 0 10px #ffbb00; 
+}
+
+.asculta-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+  text-shadow: 0 0 15px #ff6f00, 0 0 20px #ff6f00; 
+; 
+}
+
+body.acasa {
+  background-image: url("../img/background5.jpg"); 
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+}
+
+.glow-links a {
+  color: #ffffff;
+  text-shadow: 0 0 5px #f3d080,
+               0 0 10px #ffffff,
+               0 0 15px #f3d080;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.glow-links a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff,
+               0 0 20px #f3d080;
+}
+
+body.interactiv {
+  background-image: url("../img/background4.jpg"); /* imaginea de fundal */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.bestseller-title {
+  color: #000000;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff;
+  font-weight: bold;
+}
+
+body.interactiv a {
+  color: #d2f3f3; 
+  font-weight: bold;
+  text-decoration: none;
+  text-shadow: 0 0 5px #daf7f7, 0 0 10px #ffffff;
+  transition: all 0.3s ease;
+}
+
+body.interactiv a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 10px #ffffff, 0 0 20px #00ffff;
+}
+
+.glow-black {
+  color: white;
+  text-shadow: 0 0 8px black, 0 0 15px black;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 12px;
+}
+
+.glow-black {
+  color: white;
+  text-shadow: 
+    0 0 5px black, 
+    0 0 10px black, 
+    0 0 15px black, 
+    0 0 20px black;
+}

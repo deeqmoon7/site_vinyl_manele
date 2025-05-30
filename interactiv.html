@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactiv – Vinyl-uri cu Manele</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="interactiv">
+
+  <h1>Intra in vibe!</h1>
+
+<h2 class="glow-black">va lasam aici mixul nostru preferat cu Tzanca, Babasha, Botea si Biju</h2>
+<iframe width="560" height="315" 
+src="https://www.youtube.com/embed/Pk0y6pIsF7g?si=yBV_Go5PPLZXS1OK" 
+title="YouTube video player" frameborder="0" 
+allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+
+  <h2 class="bestseller-title">Asculta bestseller-ul nostru!! – Gipsy Rock - Alex Botea </h2>
+  <audio controls>
+    <source src="audio/gipsy_rock.mp3" type="audio/mpeg">
+  </audio>
+
+<h2 class="glow-black">our trademark</h2>
+<canvas id="logoCanvas" width="400" height="400" style="border:1px solid #fff;"></canvas>
+
+<script>
+  const canvas = document.getElementById("logoCanvas");
+  const ctx = canvas.getContext("2d");
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  ctx.beginPath();
+  ctx.arc(200, 200, 180, 0, 2 * Math.PI);
+  ctx.fillStyle = "#000000";
+  ctx.fill();
+  ctx.closePath();
+
+  ctx.beginPath();
+  ctx.arc(200, 200, 160, 0, 2 * Math.PI);
+  ctx.strokeStyle = "#FFD700";
+  ctx.lineWidth = 10;
+  ctx.stroke();
+  ctx.closePath();
+
+  ctx.beginPath();
+  ctx.arc(200, 200, 60, 0, 2 * Math.PI);
+  ctx.fillStyle = "#FFD700";
+  ctx.fill();
+  ctx.closePath();
+
+  ctx.beginPath();
+  ctx.arc(200, 200, 10, 0, 2 * Math.PI);
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fill();
+  ctx.closePath();
+
+  ctx.fillStyle = "#000000";
+  ctx.font = "bold 20px Arial";
+  ctx.textAlign = "center";
+  ctx.fillText("TAKTI", 200, 180);  
+  ctx.fillText("POTAKTI", 200, 235); 
+</script>
+
+ <h2>Applet-ul Java nu este suportat pe acest laptop</h2>
+<div style="color: #ffffff; font-weight: bold;">
+  🔧 Din păcate, MacBook-ul pe care-l folosesc nu suportă rularea Applet-urilor Java.
+  <br>În mod normal aici as fi încărcat un applet numit <code>ManelApplet.class</code>.
+</div>
+
+  <p>
+    <a href="index.html">Înapoi la pagina principală</a> |
+    <a href="discografie.html">Vezi discografia</a>
+  </p>
+
+</body>
+</html>

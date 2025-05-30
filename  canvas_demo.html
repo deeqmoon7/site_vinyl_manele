@@ -1,0 +1,46 @@
+<<h2>trademark</h2>
+<canvas id="logoCanvas" width="400" height="400"></canvas>
+
+<script>
+  const canvas = document.getElementById("logoCanvas");
+  const ctx = canvas.getContext("2d");
+
+  ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+  // Cerc negru mare
+  ctx.beginPath();
+  ctx.arc(200, 200, 180, 0, 2 * Math.PI);
+  ctx.fillStyle = "#000000";
+  ctx.fill();
+  ctx.closePath();
+
+  // Cerc galben contur
+  ctx.beginPath();
+  ctx.arc(200, 200, 160, 0, 2 * Math.PI);
+  ctx.strokeStyle = "#FFD700";
+  ctx.lineWidth = 10;
+  ctx.stroke();
+  ctx.closePath();
+
+  // Cerc galben mic
+  ctx.beginPath();
+  ctx.arc(200, 200, 60, 0, 2 * Math.PI);
+  ctx.fillStyle = "#FFD700";
+  ctx.fill();
+  ctx.closePath();
+
+  // Cerc alb mic în centru, raza 10
+  ctx.beginPath();
+  ctx.arc(200, 200, 10, 0, 2 * Math.PI);
+  ctx.fillStyle = "#FFFFFF";
+  ctx.fill();
+  ctx.closePath();
+
+  // Text negru, mutat puțin sus și jos
+  ctx.fillStyle = "#000000";
+  ctx.font = "bold 20px Arial";
+  ctx.textAlign = "center";
+  ctx.fillText("TAKTI", 200, 180);  // sus cu 15 pixeli față de 195
+  ctx.fillText("POTAKTI", 200, 235); // jos cu 15 pixeli față de 220
+</script>
+
